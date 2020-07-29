@@ -1,0 +1,10 @@
+{
+  "name": "@chriscourses/perlin-noise",
+  "version": "1.0.0",
+  "description": "Library-free perlin noise derived from p5.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "license": "MIT"
+}
