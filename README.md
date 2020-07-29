@@ -1,6 +1,6 @@
 # perlin-noise
 
-Library-free Perlin noise derived from p5.js
+Simple Perlin noise derived from p5.js
 
 ## Installation
 
