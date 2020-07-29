@@ -31,8 +31,8 @@ You can also call noise in sequence to access all of its pre-generated values:
 
 Returns a Perlin noise generated value 0 - 1
 
-| Parameter | Type     | Description                                    |
-| --------- | -------- | ---------------------------------------------- |
-| x         | _number_ | x value for one dimensional noise              |
-| y         | _number_ | y value for two dimensional noise (optional)   |
-| z         | _number_ | z value for three dimensional noise (optional) |
+| Parameter    | Type     | Description                         |
+| ------------ | -------- | ----------------------------------- |
+| x            | _number_ | x value for one dimensional noise   |
+| y (optional) | _number_ | y value for two dimensional noise   |
+| z (optional) | _number_ | z value for three dimensional noise |
