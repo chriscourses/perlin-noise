@@ -1,7 +1,8 @@
 {
   "name": "@chriscourses/perlin-noise",
   "version": "1.0.0",
-  "description": "Library-free perlin noise derived from p5.js",
+  "description": "Library-free Perlin noise derived from p5.js",
+  "repository": "chriscourses/perlin-noise",
   "main": "index.js",
   "scripts": {
     "test": "test"
