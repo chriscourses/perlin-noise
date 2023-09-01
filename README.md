@@ -12,18 +12,16 @@ Simple Perlin noise derived from p5.js
 
 ## Usage
 
-Return a one dimensional Perlin noise value:
+Return a Perlin noise value 0-1:
 
 ```js
-const { noise } = require('@chriscourses/perlin-noise')
+import { noise } from '@chriscourses/perlin-noise'
 const x = noise(10) // returns value 0-1
 ```
 
-You can also call noise in sequence to access all of its pre-generated values:
+You can also call `noise` in sequence to access all pre-generated noise values:
 
 ```js
-const { noise } = require('@chriscourses/perlin-noise')
-
 for (let i = 0; i < 100; i += 0.01;) {
   const x = noise(i) // returns value 0-1, but different and related to the previous return value on each loop cycle
 }
@@ -31,7 +29,7 @@ for (let i = 0; i < 100; i += 0.01;) {
 
 ## API
 
-### noise(x, [y], [z])
+### noise(x, y, z)
 
 Returns a Perlin noise generated value 0 - 1
 
